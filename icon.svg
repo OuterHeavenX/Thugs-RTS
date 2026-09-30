@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
-<rect width="128" height="128" rx="24" fill="#12141c"/>
-<path d="M64 14 L114 64 L64 114 L14 64 Z" fill="none" stroke="#3f7de0" stroke-width="8"/>
-<path d="M64 36 L92 64 L64 92 L36 64 Z" fill="#e04b3a"/>
-<text x="64" y="79" font-size="38" text-anchor="middle" fill="#ffffff" font-family="sans-serif" font-weight="bold">T</text>
-</svg>

@@ -1,29 +1,42 @@
 class_name FactionData
-extends RefCounted
+extends Resource
 
-## Playable countries. Slice ships with america vs asia.
-## Future factions to add later: africa, europe, australia, south_america.
+## One playable faction. Everything faction-specific lives here or in the
+## models it points at; the engine never hardcodes faction behavior.
 
-const FACTIONS := {
-	"america": {
-		"name": "America",
-		"color": Color(0.16, 0.38, 0.95),
-		"dark": Color(0.10, 0.24, 0.65),
-		"light": Color(0.45, 0.62, 1.00),
-	},
-	"asia": {
-		"name": "Asia",
-		"color": Color(0.92, 0.16, 0.14),
-		"dark": Color(0.62, 0.10, 0.10),
-		"light": Color(1.00, 0.45, 0.40),
-	},
-}
-
-
-static func display_name(faction: String) -> String:
-	return String(FACTIONS[faction]["name"])
+@export var id: String = ""
+@export var name: String = ""
+@export var color: Color = Color.WHITE
+@export var accent: Color = Color.CYAN
+@export var doctrine: String = ""
+@export var strengths: PackedStringArray = []
+@export var weaknesses: PackedStringArray = []
+@export var mechanic_name: String = ""
+@export var mechanic_desc: String = ""
+@export var worker_id: String = "worker"
+@export var units: Array[UnitData] = []
+@export var buildings: Array[BuildingData] = []
+@export var upgrades: Array[UpgradeData] = []
+## Short emblem description; UI draws a procedural emblem from this.
+@export var emblem: String = ""
 
 
-static func color_of(faction: String) -> Color:
-	var c: Color = FACTIONS[faction]["color"]
-	return c
+func unit(id: String) -> UnitData:
+	for u in units:
+		if u.id == id:
+			return u
+	return null
+
+
+func building(id: String) -> BuildingData:
+	for b in buildings:
+		if b.id == id:
+			return b
+	return null
+
+
+func upgrade(id: String) -> UpgradeData:
+	for u in upgrades:
+		if u.id == id:
+			return u
+	return null

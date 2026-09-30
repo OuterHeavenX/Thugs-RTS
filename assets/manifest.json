@@ -1,0 +1,245 @@
+[
+ {
+  "file": "assets/models/environment/supply_deposit.glb",
+  "category": "environment",
+  "name": "supply_deposit",
+  "triangles": 256,
+  "named_nodes": []
+ },
+ {
+  "file": "assets/models/environment/helios_crystal.glb",
+  "category": "environment",
+  "name": "helios_crystal",
+  "triangles": 116,
+  "named_nodes": [
+   "Glow"
+  ]
+ },
+ {
+  "file": "assets/models/environment/tree.glb",
+  "category": "environment",
+  "name": "tree",
+  "triangles": 70,
+  "named_nodes": []
+ },
+ {
+  "file": "assets/models/environment/rock.glb",
+  "category": "environment",
+  "name": "rock",
+  "triangles": 60,
+  "named_nodes": []
+ },
+ {
+  "file": "assets/models/environment/abandoned_facility.glb",
+  "category": "environment",
+  "name": "abandoned_facility",
+  "triangles": 320,
+  "named_nodes": []
+ },
+ {
+  "file": "assets/models/buildings/us_command_center.glb",
+  "category": "buildings",
+  "name": "us_command_center",
+  "triangles": 580,
+  "named_nodes": []
+ },
+ {
+  "file": "assets/models/buildings/us_power_generator.glb",
+  "category": "buildings",
+  "name": "us_power_generator",
+  "triangles": 496,
+  "named_nodes": [
+   "Core"
+  ]
+ },
+ {
+  "file": "assets/models/buildings/us_barracks.glb",
+  "category": "buildings",
+  "name": "us_barracks",
+  "triangles": 280,
+  "named_nodes": []
+ },
+ {
+  "file": "assets/models/buildings/us_vehicle_factory.glb",
+  "category": "buildings",
+  "name": "us_vehicle_factory",
+  "triangles": 252,
+  "named_nodes": []
+ },
+ {
+  "file": "assets/models/buildings/us_research_lab.glb",
+  "category": "buildings",
+  "name": "us_research_lab",
+  "triangles": 560,
+  "named_nodes": [
+   "Dish"
+  ]
+ },
+ {
+  "file": "assets/models/buildings/us_defense_tower.glb",
+  "category": "buildings",
+  "name": "us_defense_tower",
+  "triangles": 216,
+  "named_nodes": [
+   "Turret",
+   "Muzzle"
+  ]
+ },
+ {
+  "file": "assets/models/buildings/jp_command_center.glb",
+  "category": "buildings",
+  "name": "jp_command_center",
+  "triangles": 524,
+  "named_nodes": []
+ },
+ {
+  "file": "assets/models/buildings/jp_power_generator.glb",
+  "category": "buildings",
+  "name": "jp_power_generator",
+  "triangles": 924,
+  "named_nodes": [
+   "Core"
+  ]
+ },
+ {
+  "file": "assets/models/buildings/jp_barracks.glb",
+  "category": "buildings",
+  "name": "jp_barracks",
+  "triangles": 260,
+  "named_nodes": []
+ },
+ {
+  "file": "assets/models/buildings/jp_vehicle_factory.glb",
+  "category": "buildings",
+  "name": "jp_vehicle_factory",
+  "triangles": 204,
+  "named_nodes": []
+ },
+ {
+  "file": "assets/models/buildings/jp_research_lab.glb",
+  "category": "buildings",
+  "name": "jp_research_lab",
+  "triangles": 528,
+  "named_nodes": [
+   "Dish"
+  ]
+ },
+ {
+  "file": "assets/models/buildings/jp_defense_tower.glb",
+  "category": "buildings",
+  "name": "jp_defense_tower",
+  "triangles": 608,
+  "named_nodes": [
+   "Turret",
+   "Muzzle"
+  ]
+ },
+ {
+  "file": "assets/models/units/us_worker.glb",
+  "category": "units",
+  "name": "us_worker",
+  "triangles": 672,
+  "named_nodes": []
+ },
+ {
+  "file": "assets/models/units/us_ranger.glb",
+  "category": "units",
+  "name": "us_ranger",
+  "triangles": 708,
+  "named_nodes": [
+   "Muzzle"
+  ]
+ },
+ {
+  "file": "assets/models/units/us_guardian_ifv.glb",
+  "category": "units",
+  "name": "us_guardian_ifv",
+  "triangles": 624,
+  "named_nodes": [
+   "Turret",
+   "Muzzle"
+  ]
+ },
+ {
+  "file": "assets/models/units/us_abramsx.glb",
+  "category": "units",
+  "name": "us_abramsx",
+  "triangles": 548,
+  "named_nodes": [
+   "Turret",
+   "Muzzle"
+  ]
+ },
+ {
+  "file": "assets/models/units/us_reaper_drone.glb",
+  "category": "units",
+  "name": "us_reaper_drone",
+  "triangles": 756,
+  "named_nodes": [
+   "Rotor_1",
+   "Rotor_2",
+   "Rotor_3",
+   "Rotor_4"
+  ]
+ },
+ {
+  "file": "assets/models/units/us_paladin.glb",
+  "category": "units",
+  "name": "us_paladin",
+  "triangles": 860,
+  "named_nodes": [
+   "Muzzle"
+  ]
+ },
+ {
+  "file": "assets/models/units/jp_worker.glb",
+  "category": "units",
+  "name": "jp_worker",
+  "triangles": 672,
+  "named_nodes": []
+ },
+ {
+  "file": "assets/models/units/jp_raiden.glb",
+  "category": "units",
+  "name": "jp_raiden",
+  "triangles": 984,
+  "named_nodes": [
+   "Muzzle"
+  ]
+ },
+ {
+  "file": "assets/models/units/jp_shinobi.glb",
+  "category": "units",
+  "name": "jp_shinobi",
+  "triangles": 632,
+  "named_nodes": []
+ },
+ {
+  "file": "assets/models/units/jp_tora.glb",
+  "category": "units",
+  "name": "jp_tora",
+  "triangles": 676,
+  "named_nodes": [
+   "Muzzle"
+  ]
+ },
+ {
+  "file": "assets/models/units/jp_kitsune.glb",
+  "category": "units",
+  "name": "jp_kitsune",
+  "triangles": 512,
+  "named_nodes": [
+   "Rotor"
+  ]
+ },
+ {
+  "file": "assets/models/units/jp_ronin.glb",
+  "category": "units",
+  "name": "jp_ronin",
+  "triangles": 524,
+  "named_nodes": [
+   "Turret",
+   "Muzzle"
+  ]
+ }
+]
